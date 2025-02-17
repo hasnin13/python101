@@ -11,4 +11,4 @@ l_name = 'Einstein'
 print(f'{f_name} {l_name} once said “A person who never made a mistake never tried anything new"')
 
 famous_person = f'{f_name} {l_name}'
-print(f'{famous_person}  once said, “A person who never made a mistake never tried anything new')
+print(f'{famous_person}  once said, “A person who never made a mistake never tried anything new"')
