@@ -11,3 +11,8 @@ print(full_name)
 #for using tab before statement
 print(f'\t{full_name}')
 
+#strip method
+name = '         hanna       '
+print(f'{name.strip()} ' + "hdasdbahs")
+
+
