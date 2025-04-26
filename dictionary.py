@@ -59,4 +59,37 @@ langs = {
 }
 print(langs.get('sadia', "sadia not found"))
 
-##imp method:
+####
+user = {
+    'username' : "rishat",
+    'password' : "1234",
+    'mail' : "rst@mail.com"
+}
+
+arr = [1,2,3,4,5,6,7]
+for i in arr :
+    print(i)
+    
+print(user.keys())
+
+for key in user :
+    print(key)
+
+for key,val in user.items():
+    print(f"key : {key}")
+    print(f"val : {val}")
+
+print('\n' + f"{user.items()}")
+
+for item in user.items() :
+    key,val = item
+    print(key)
+    print(val)
+
+first,second,third = (1,2,3)
+print(first)
+print(second)
+print(third)
+
+
+
